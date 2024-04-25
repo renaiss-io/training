@@ -1,0 +1,21 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "static": "reveal-md trainings/ --theme theme/renaiss.css --static dist --static-dirs=assets --absolute-url https://renaiss-io.github.io/training/ --featured-slide 1",
+    "build": "node build/build-static.js",
+    "dev": "reveal-md trainings/ --theme theme/renaiss.css -w ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^3.1.10",
+    "glob": "^10.3.12",
+    "gray-matter": "^4.0.3",
+    "reveal-md": "^6.1.1"
+  }
+}

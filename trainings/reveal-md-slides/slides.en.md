@@ -1,13 +1,13 @@
 ---
-title: Haciendo Slides
+title: Making Slides
 revealOptions:
   progress: true
   # other configs for reveal: https://revealjs.com/config/
 
 # custom config for our build script
-description: Como hacer slides en este repo
+description: Learning how to do slides in this repo
 category: General
-level: 1
+level: 1 # 1: beginner, 2: mid, 3: advance
 ---
 
 # Haciendo Slides

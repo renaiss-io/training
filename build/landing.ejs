@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training Portal</title>
+    <link rel="stylesheet" href="landing.css" />
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to our training portal</h1>
+    </header>
+    <% for (var category in categories){ %>
+        <section class="training-category">
+          <h2><%- category %></h2>
+          <% for (const slug in categories[category]){
+            const training = categories[category][slug] %>
+          <div class="card-container">
+              <a href="<%- training.data["es"].href %>" class="card">
+                <h3><%- training.data["es"].title %></h3>
+                <img src="<%- `${slug}/featured-slide.jpg` %>" />
+                <p><%- training.data["es"].title %></p>
+              </a>
+          </div>
+          <% } %>
+        </section>
+      <% } %>
+    </div>
+  </body>
+</html>
