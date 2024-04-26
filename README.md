@@ -30,6 +30,12 @@ TBD
 
 ## TODOs
 
-- [ ] Implement CI/CD to github pages
-- [ ] Add index by topic (deploy script)
-- [ ] Add landing page with topics and links to presentations
+- [x] Implement CI/CD to github pages
+- [x] Add index by category (deploy script)
+- [x] Add landing page with topics and links to presentations
+- [ ] Finish implementing the multi language support. (needs implementation in template)
+- [ ] Verify that landing is responsive
+- [ ] Add dark/light theme
+- [ ] Add Husky with markdown and js formatting and linters
+- [ ] Add missing mermeid.js file to deploy
+- [ ] Massive Testing
