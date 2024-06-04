@@ -2,7 +2,7 @@
 
 ## How to view
 
-Install reveal-md: `pnpm install -g reveal-md`
+Install reveal-md: `npm install -g reveal-md`
 
 Read wished presentation: `reveal-md trainings/FOLDER/PRESENTATION.md -w --css style.css`
 
@@ -16,7 +16,9 @@ TBD
   - [ ] DNS
   - [ ] IPv4
   - [ ] IPv6
+  - [ ] HTTPS, TLS 
   - [ ] HTTP y headers
+  - [ ] VPN
 - _Infrastructure_
   - [ ] Docker
   - [ ] Docker Compose
@@ -27,6 +29,14 @@ TBD
   - [ ] Git
   - [ ] Monitoring
   - [ ] Observability
+- _CloudEngineering_
+  - [ ] AWS foundationals
+  - [ ] GCP foundationals
+  - [ ] Azure foundationals
+- _Security_
+  - [ ] Auditory steps
+  - [ ] Encryption
+  - [ ] Authentication
 
 ## TODOs
 
