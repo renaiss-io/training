@@ -37,6 +37,9 @@ TBD
   - [ ] Auditory steps
   - [ ] Encryption
   - [ ] Authentication
+- _NotSureWhichCategory_
+  - [ ] Databases. types. management. desing. administration
+
 
 ## TODOs
 
