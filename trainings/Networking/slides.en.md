@@ -11,13 +11,14 @@ level: 1 # 1: beginner, 2: mid, 3: advance
 ---
 # Networking training
 
-Rolando Cabrera
+Rolando Cabrera Blanch
 Note:
 Estas son _notas_ para el disertante. Se pueden usar apretando la letra S
 
 ---
 
-## DNS training outline
+## Today we will see DNS! Let's dive into
+### DNS training outline
 
 ```md
 1. Understanding the problem
@@ -26,7 +27,7 @@ Estas son _notas_ para el disertante. Se pueden usar apretando la letra S
 4. Practice and Examples
 5. In progress
 ```
- 
+
 ---
 
 ### Let's describe and understand the problem
@@ -36,14 +37,14 @@ Estas son _notas_ para el disertante. Se pueden usar apretando la letra S
 
 ---
 
-## Basic Concepts
-#### What is DNS and what is it used for?
+<!-- ## Basic Concepts
+#### What is DNS and what is it used for? -->
 
 <!-- <span style="font-size: 16px;">Translates Domain name Sistems into Internet protocols .</span> -->
 
-Translates Domain name Sistems into Internet protocols 
+<!-- Translates Domain name Sistems into Internet protocols 
 
-![](images/dns_basic.png)
+![](images/dns_basic.png) -->
 
 <!-- ---
 
@@ -62,13 +63,42 @@ Translates Domain name Sistems into Internet protocols
 <!-- Note: 
 In a usual DNS query, the URL typed in by the user has to go through four servers for the IP address to be provided. The four servers work with each other to get the correct IP address to the client, and they include: -->
 
----
-
+<!-- <img src="images/players.png" alt="DNS Life Cycle" width="600" height="600"> -->
 ![](images/castofchars.png)
 
 ---
 
+![](images/types_of_servers.svg)
+
+---
+
+![](images/hierarchy_dns.png)
+
+---
+
 ![](images/life_dns.png)
+
+---
+
+![](images/dns_records.svg)
+
+---
+
+## Extra material Audivisual  - Notas
+
+- Everything You Need to Know About DNS: Crash Course System Design #4 [](https://www.youtube.com/watch?v=27r4Bzuj5NQ)
+
+- DNS Explained in 100 Seconds [](https://www.youtube.com/watch?v=UVR9lhUGAyU) 
+
+---
+
+Thanks for listening to me! 
+
+Have you got any questions?
+
+---
+
+![](images/meme_great_job.jpg)
 
 ---
 
@@ -107,33 +137,10 @@ Links como [este](https://root-servers.org/) se pueden hacer así
 Note: 
 If a cybercriminal infiltrates a DNS system, they can send users to fake or malicious sites. They can also steal data, hijack websites, or inundate servers with requests, shutting them down eventually. DNS security is designed to prevent these kinds of attacks.
 
-
----
-
-
 --- 
 ## DNS Attack Types
 ### DoS, DDoS, and DNS amplification attacks
 
-
 ---
 ## DNS Attack Types
 ### DNS tunneling
----
-
-## Extra material Audivisual  - Notas
-
-- Everything You Need to Know About DNS: Crash Course System Design #4 [](https://www.youtube.com/watch?v=27r4Bzuj5NQ)
-
-- DNS Explained in 100 Seconds [](https://www.youtube.com/watch?v=UVR9lhUGAyU) 
-
-
----
-
-Thanks for listening to me! 
-
-Have you got any questions?
-
----
-
-![](images/meme_great_job.jpg)
